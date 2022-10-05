@@ -1,0 +1,55 @@
+body {
+    background-color:rgb(141, 215, 235);
+}
+h1 {
+    text-align: center;
+}
+h4 {
+    padding-top: 2rem;
+} 
+
+img {
+    border-radius: 30px;
+    border: 0.2rem solid blueviolet;
+    margin: 10px;
+}
+
+.frame {
+    border-radius: 10px;
+    border: 0.2rem solid blueviolet;
+    width: 20rem;
+    height: 30rem;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center_text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.rounded {
+    border-top: 5px solid blueviolet;
+    opacity: 1;
+}
+
+/* got the idea for this part from Jeff's boostrap tutorial */
+.btn:hover,
+.btn:focus {
+    filter: brightness(120%)
+
+}
+
+.btn-lg {
+    background-color: blueviolet;
+    left: 50%;
+}

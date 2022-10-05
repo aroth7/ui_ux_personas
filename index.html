@@ -1,0 +1,149 @@
+<!-- for much of this (especially the beginning part with the general setup and nav bar, I used code from
+    Jeff's demo video regarding using bootstrap) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="'width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Personas and Storyboarding - CVS Checkout</title>
+</head>
+<body>
+<nav id="top" class="navbar navbar-expand-sm navbar-dark bg-dark text-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Personas and Storyboarding</a>
+        <div class="collapse navbar-collapse"> 
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item"><a href="#sketch" class="nav-link">Sketch and Description</a></li>
+                <li class="navbar-item"><a href="#responses" class="nav-link">Interview Responses</a></li>
+                <li class="navbar-item"><a href="#personas" class="nav-link">Personas</a></li> 
+                <li class="navbar-item"><a href="#storyboard" class="nav-link">Storyboard</a></li>
+            </ul> 
+        </div> 
+    </div>
+</nav>
+ 
+<div class="d-flex-column justify-content-center align-items-center">
+    <h1>The Notorious CVS Checkout Machine</h1>
+    <img src="images/sketch.jpeg" alt="sketch of CVS checkout machine" class="center">
+</div>
+
+<div id="sketch" class="container-fluid text-center">
+     <h3>Sketch and Description</h3>
+     <img src="images/labeled.jpeg" alt="labeled sketch of CVS checkout machine" class="center" style="width: 75%">
+     <p class="lead">
+        This interface is the CVS self-checkout machine. It is trying to solve the problem of every customer having to wait in line for the
+        in person checkout station, which usually only has 1-2 employees, as well as speed up the checkout process in general. To use it,
+        one scans ites in front of the scanner, then places the scanned items on the gray bagging table. While doing this, the user interacts
+        with many buttons on the red screen.
+     </p>
+     <a href="#top" class="btn btn-lg text-light"> return to top</a>
+</div>
+
+<hr class="rounded">
+
+<div id="responses" class="container-fluid">
+    <h3 class=" text-center">Observations and Interview Repsonses</h3>
+    <h5>Observations</h5>
+    <ul>
+        <li>multiple users forgot to press “skip bagging” after scanning an item</li>
+        <li>2 of the 4 users had to call for help at some point</li>
+        <li>2 of the 4 users tried to pay before pressing all of the buttons to initiate the payment process</li>
+        <li>1 user almost left without pressing “no receipt”</li>
+        <li>there was decently sized line of 3-4 other people waiting to use self-checkout, while there was no 
+            line for in-person checkout</li>
+        <li>all of the users looked frustrated at some point during their checkout process</li>
+    </ul>
+    <h5>Questions</h5>
+    <h6>1. Describe your experience using the self-checkout machine in 2 words</h6>
+    <ul>
+        <li>"nothing special"</li>
+        <li>"efficient and non-eventful"</li>
+        <li>"frustrated and annoyed"</li>
+    </ul>
+    <h6>2. Do you think using self checkout speeds up or slows down your checkout process?</h6>
+    <ul>
+        <li>"slows it down because I sometimes forget to press some of the buttons to continue"</li>
+        <li>"Speeds it up because you don’t have to wait for everyone on line for traditional checkout"</li>
+        <li>frustrated and annoyed</li>
+    </ul>
+    <h6>3. Approximately how long did it take you to use the machine?</h6>
+    <ul>
+        <li>"Less than 1.5 mins"</li>
+        <li>"30 seconds"</li>
+    </ul>
+    <h6>4. Why did you choose self checkout over traditional checkout?</h6>
+    <ul>
+        <li>"I don’t like talking to people"</li>
+        <li>"I only had one item, so it wasn’t worth the wait for traditional checkout"</li>
+    </ul>
+    <h6>5. Would you choose self checkout again?</h6>
+    <ul>
+        <li>"yes"</li>
+        <li>"yes"</li>
+    </ul>
+    <a href="#top" class="btn btn-lg text-light"> return to top</a>
+</div>
+
+<hr class="rounded">
+
+<div id="personas" class="container-fluid text-center">
+    <h3>Personas</h3>
+    <img src="images/sally.jpeg" alt="empathy map of Stressed Sally" style="width: 75%">
+    <p class="center_text lead">
+        Stressed Sally is a college student. She is rushing between classes and is trying to buy a diet coke 
+        and a protein bar between classes. Because Sally is stressed, she forgets to press the buttons in the 
+        correct order, which causes the machine to glitch. Additionally, the scanner malfunctions while Sally 
+        is using the machine, so she has to call the actual checkout person over for help. The Stressed Sally 
+        persona represents users who get confused by all the different steps one must follow, as well as the 
+        group of users who have to deal with the machine not working because she dealt with both of these issues 
+        while checking out.
+    </p>
+    <img src="images/edward.jpeg" alt="empathy map of Efficient Edward" style="width: 75%" >
+    <p class="center_text lead">
+        Efficient Edward is a businessman who often has to stop at CVS on the way home to pick up one or two 
+        items. He doesn’t personally face any problems with the interface; however, he does have to wait longer 
+        than expected while the people in front of him struggle. The Efficient Edward persona represents the 
+        group of users who use the machine effectively to purchase only one item and also don’t run into any 
+        issues regarding the machine breaking.
+    </p>
+    <a href="#top" class="btn btn-lg text-light"> return to top</a>
+</div>
+
+<hr class="rounded">
+
+<div id="storyboard" class="container-fluid text-center">
+    <h3>Storyboard:</h3>
+    <h5>Stressed Sally's experience at CVS</h5>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img class="frame" src="images/frame1.jpeg" alt="walking to checkout">
+            </div>
+            <div class="col">
+                <img class="frame" src="images/frame2.jpeg" alt="scanning item">
+            </div>
+            <div class="col">
+                <img class="frame" src="images/frame3.jpeg" alt="forgets to press button">
+            </div>
+            <div class="col">
+                <img class="frame" src="images/frame4.jpeg" alt="asking for help">
+            </div>
+            <div class="col">
+                <img class="frame" src="images/frame5.jpeg" alt="many buttons on payment screen">
+            </div>
+            <div class="col">
+                <img class="frame" src="images/frame6.jpeg" alt="asking for help again">
+            </div>
+            <div class="col">
+                <img class="frame" src="images/frame7.jpeg" alt="leaving">
+            </div>
+        </div>
+    </div>
+    <a href="#top" class="btn btn-lg text-light"> return to top</a>
+</div>
+</body>
+</html>
+ 
